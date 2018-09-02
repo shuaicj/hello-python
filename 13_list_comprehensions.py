@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# list
 print([x for x in range(10)])
 
 print([x * x for x in range(10)])
@@ -11,3 +12,10 @@ print([x + y for x in 'ABC' for y in '123'])
 print([x + y for x in 'ABC' for y in '123' if x <= 'B' and y <= '2'])
 
 print([k + v + x for k, v in {'A': '1', 'B': '2'}.items() for x in 'mn'])
+
+# set
+print({x.lower() for x in 'ABC'})
+
+# dict
+print({x: x.lower() for x in 'ABC'})
+

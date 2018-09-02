@@ -18,6 +18,11 @@ print("'python' in langs =", 'python' in langs)
 print("'golang' in langs =", 'golang' in langs)
 print("'golang' not in langs =", 'golang' not in langs)
 
+x, y, z = langs
+print('x, y, z = langs, x =', x)
+print('x, y, z = langs, y =', y)
+print('x, y, z = langs, z =', z)
+
 langs.append('php')
 print("langs.append('php'), langs =", langs)
 

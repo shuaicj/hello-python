@@ -49,3 +49,10 @@ if non_empty_set:
 if ():
     print('empty set')
 
+
+def get_or_default(x, v):
+    return x if x else v
+
+print("get_or_default('abc', 'a') =", get_or_default('abc', 'a'))
+print("get_or_default('', 'a') =", get_or_default('', 'a'))
+
