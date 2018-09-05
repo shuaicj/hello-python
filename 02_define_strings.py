@@ -23,3 +23,7 @@ print('''I'm shuaicj.
 \t Who are you?''')
 print(r'''I'm shuaicj.
 \t Who are you?''')
+
+s = ('a long long '
+     'long long string')
+print(s)
