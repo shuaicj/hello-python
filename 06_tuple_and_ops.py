@@ -23,6 +23,10 @@ print('x, y, z = langs, x =', x)
 print('x, y, z = langs, y =', y)
 print('x, y, z = langs, z =', z)
 
+size = 100, 200
+print('size = 100, 200, size =', size)
+print('size = 100, 200, type(size) =', type(size))
+
 empty_tuple = ()
 print('empty_tuple =', empty_tuple)
 
